@@ -52,7 +52,7 @@ npm install express axios cors express-session flat-cache
 Откройте файл server.js и замените следующие строки на свои данные:
 
 ```js
-const SITE_PASSWORD = 'kinositeimba';      // придумайте свой пароль
+const SITE_PASSWORD = 'kino-password';      // придумайте свой пароль
 const TMDB_KEY = 'ваш_ключ_tmdb';
 const J_URL = 'http://127.0.0.1:9117';
 const J_KEY = 'ваш_ключ_jackett';
