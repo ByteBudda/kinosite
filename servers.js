@@ -13,7 +13,7 @@ if (!fs.existsSync(cacheDir)) fs.mkdirSync(cacheDir);
 
 const movieCache = flatCache.create({ cacheId: 'movie_data', storageLocation: cacheDir });
 const PORT = 3000;
-const SITE_PASSWORD = 'kinositeimba'; 
+const SITE_PASSWORD = 'kino-password'; 
 const TMDB_KEY = 'ваш ключ tmdb';
 const J_URL = 'http://127.0.0.1:9117'; 
 const J_KEY = 'api jacket ключ';
